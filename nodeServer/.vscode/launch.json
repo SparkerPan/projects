@@ -1,0 +1,25 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "node服务端",
+            "program": "${workspaceFolder}/build/auction_server.js"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Chrome调试",
+            "url": "http://localhost:8000",
+            "sourceMaps": true,
+            "runtimeExecutable": "D:/App_work/Browser_S/Chrome/Google/Chrome/Application/chrome.exe",
+            "runtimeArgs": ["--auction_server.js"],
+            "userDataDir": "${workspaceRoot}/.vscode/chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

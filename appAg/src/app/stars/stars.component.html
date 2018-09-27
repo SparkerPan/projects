@@ -1,0 +1,5 @@
+<p>
+  <span *ngFor="let star of stars;let i=index;"  class="fa fa-star"
+  [class.fa-star-o]="star" (click)="clickStar(i)"></span>
+  <span ng-model="rating"></span>
+</p>

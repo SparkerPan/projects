@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="continer" >
+<view class="usertitle" >
+  表情萌工厂
+</view>
+<canvas class="mycanvas" canvas-id="firstCanvas" style="width:{{mywidth}}px">
+  <image class='image' src="/card.jpg" style="width:{{mywidth}}px"/>
+  <view class="usertext">
+  {{text}}
+  </view>
+</canvas>
+
+<form>
+  <input class="myinput" placeholder="请输入你要添加的表情语(可预览)" bindinput='review'></input>
+</form>
+<button class='mybutton' bindtap='save'>保存并分享</button>
+
+</view>
+
+
+
+
+

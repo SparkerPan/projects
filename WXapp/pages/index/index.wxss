@@ -1,0 +1,22 @@
+/* pages/index/index.wxss */
+.continer{
+  height: 100%;
+  background-color: rgb(245, 211, 168);
+}
+.myaimo {
+height: 150px;
+}
+.block{
+  width: 30%;
+  height: 80px;
+  margin-left: 8px;
+  margin-top: 6px;
+  float: left;
+  line-height: 80px;
+  text-align: center;
+  position: relative;
+  border-style: solid;
+  border: 3px;
+  border-color: red;
+  background-color: greenyellow;
+}

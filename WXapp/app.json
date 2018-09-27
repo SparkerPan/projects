@@ -1,0 +1,13 @@
+{
+  "pages": [
+     "pages/index/index",
+     "pages/logs/logs",
+     "pages/emoticon/emoticon",
+     "pages/calculate/calculate"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#d00",
+    "navigationBarTitleText": "哇咔咔",
+    "navigationBarTextStyle": "white"
+  }
+}

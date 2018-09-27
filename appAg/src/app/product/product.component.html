@@ -1,0 +1,22 @@
+<div class="continer">
+  <div class="row">
+    <div *ngFor="let product of products |async" class="col-md-4 col-sm-4 col-lg-4">
+      <div class="img-thumbnail">
+        <img src="http://placehold.it/300x150" alt="###">
+    
+        <h4 class="pull-right">{{product.price}}元</h4>
+        <h4><a [routerLink]="['/product',product.id]">{{product.title}}</a></h4>
+        <p>{{product.desc}}</p>
+        <div class="caption"></div>
+        <div>
+          <app-stars [rating]="product.rating"></app-stars>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

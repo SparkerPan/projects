@@ -1,0 +1,42 @@
+/**emoticon.wxss**/
+.continer{
+  /**/
+  height: 100%;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+.usertitle {
+  height: 80px;
+  position: relative;
+  text-align: center;
+  line-height: 80px;
+  letter-spacing: 20px;
+  font-size: 30px;
+  }
+.usertext {
+  text-align: center;
+  top: -80px;
+  position: relative;
+  height: 0px;
+  font-size: 20px;
+}
+.myinput{
+  background-color: rgba(222, 222, 230, 0.664);
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+.mybutton{
+  width: 100%;
+  top:50px;
+  position: relative;
+  background-color: #f86565;
+}
+.mycanvas{
+  height: 270px;
+}
+.image{
+  height:270px;
+}

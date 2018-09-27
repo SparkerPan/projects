@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class='continer' style='height:{{myheight}}px'>
+  <image class='myaimo' src='/aimo.png' style='width:{{mywidth}}px'></image>
+  <view class='block' bindtap='emoticon'>表情萌工厂</view>
+  <view class='block' bindtap='calculate'>超级计算器</view>
+  <view class='block' bindtap='voter'>投票我在行</view>
+  <view class='block' bindtap='lucky'>幸运大转盘</view>
+  <view class='block' bindtap='coolalbum'>炫酷相册</view>
+  <view class='block'>个性名片</view>
+  <view class='block'>分享日迹</view>
+  <view class='block'>周末去哪</view>
+  <view class='block'>邻家小吃</view>
+</view>
+

@@ -1,0 +1,13 @@
+.well{
+    margin-top: 20px;
+}
+.evaluate{
+    background-color: rgb(187, 181, 181);
+    margin: 0 auto;
+    height: 40px;
+    /* line-height: 40px; */
+    vertical-align: middle;
+}
+.mycont{
+    margin: 0 auto;
+}
