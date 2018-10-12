@@ -1,9 +1,16 @@
 .slide-image{
     width: 100%;
 }
+.left{
+    float: left;
+    position: relative;
+    top: -160px;
+}
+
 .right{
     float: right;
     position: relative;
+    top: -160px;
     
 }
 

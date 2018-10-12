@@ -1,0 +1,14 @@
+.myfooter{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(197, 195, 199);
+    bottom: 0px;
+    position: absolute;
+    
+}
+
+p{
+    margin: 0px 0px 0px 0px;
+    font-size : 0.5em;
+    line-height: 25px;
+}

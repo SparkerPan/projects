@@ -42,7 +42,8 @@ var comments = [
     new Comment(5, 3, "2017-05-03 22:22:02", "孙五", 1, "东西不错")
 ];
 app.get('/', function (req, res) {
-    res.send("Hello Express 1");
+    //res.send("Hello Express 1");
+    res.send(products);
 });
 app.get('/api/products', function (req, res) {
     console.log("有一个客户端发来请求");
